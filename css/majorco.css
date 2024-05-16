@@ -1,0 +1,235 @@
+
+#buttonDiv {
+	position: fixed;
+	width:200px;
+	height:200px;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0px 0px -100px;
+	border: 1px solid #000;
+	text-align:center;
+ }
+ .button {
+	position:relative;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+ }
+
+.form-style-9{
+	float: left;
+	width: 100%;
+	max-width: 100%;
+	background: #FAFAFA;
+	padding: 20px;
+	margin: 50px auto;
+  	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 0px solid #305A72;
+	overflow: hidden;
+}
+.resEntry{
+	float: left;
+	width: 60%;
+	max-width: 60%;
+	background: #FAFAFA;
+	padding: 20px;
+	margin: 50px auto;
+  	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 3px solid #305A72;
+	overflow: hidden;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-9 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+	width: 65%;
+}
+.form-style-9 ul li .field-split-date{
+	width: 40%;
+}
+.form-style-9 ul li .field-full{
+	width: 100%;
+}
+.form-style-9 ul li input.align-left{
+	float:left;
+}
+.form-style-9 ul li input.align-right{
+	float:right;
+}
+.form-style-9 ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li  .label-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 0px solid #B0CFE0;
+	
+}
+.form-style-9 ul li .label-split{
+	width: 35%;
+}
+.form-style-9 ul li .label-full{
+	width: 100%;
+}
+.form-style-9 ul li label.align-left{
+	float:left;
+}
+.form-style-9 ul li label.align-right{
+	float:right;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
+.resContainer-style{
+	width: 98%;
+	max-width: 98%;
+	background: #FAFAFA;
+	float: left;
+	padding: 20px;
+	margin: 20px auto;
+  	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 5px solid #305A72;
+	overflow: hidden;
+}
+
+.mybox-x {
+	width: 98%;
+	max-width: 98%;
+	background: #FAFAFA;
+	float: left;
+	padding: 20px;
+	margin: 20px auto;
+  	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 5px solid #305A72;
+	overflow: hidden;
+}
+
+.resViewer{
+	float: right;
+	width: 60%;
+	max-width: 60%;
+	background: #FAFAFA;
+	padding: 20px;
+	margin: 50px auto;
+  	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 3px solid #305A72;
+	overflow: hidden;
+}
+.invholder{
+	float: center;
+	height: auto;
+	width: 300px;
+}
+
+#container {
+	width: auto;
+	height: auto;
+	display: table;
+}
+#container .image-container {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;   
+}
+#container .image-container img {
+	max-width: 550px;
+	max-height: 110px;
+}
+
+#address-holder {
+	width: 220px;
+	height: auto;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	padding-right: 200px;
+	padding-left: 400px;
+}
+
+.tcontent {
+    border: 1px solid #000;
+    min-width:3em;
+    min-height:1em;
+}
+
+#mytable, #myth, #mytd, #mytds, #mytdscur, #myspecdiv{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding-top: 20px;
+	padding-bottom: 40px;
+  }
+  #myth {
+	padding: 5px 15px;
+	text-align: left; 
+	height: 13px;   
+  }
+  #mytd, #mytds {
+	padding: 5px 15px;
+	text-align: left;   
+  }
+  #mytdscur{
+	padding: 5px 15px;
+	text-align: right;
+  }
+  #mytd:empty {
+	visibility:hidden;
+  }
+  #mytd:blank {
+	visibility:hidden;
+  }
+
+  #mybox-x {
+	width: 98%;
+	max-width: 98%;
+	background: #FAFAFA;
+	float: left;
+	padding: 20px;
+	margin: 20px auto;
+  	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 5px solid #305A72;
+	overflow: hidden;
+}
+ 
