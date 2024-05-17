@@ -19,7 +19,7 @@ header('location:index.php');
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal |Reservation Management</title>
+	<title>Car Rental Portal||Reservation Management</title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
