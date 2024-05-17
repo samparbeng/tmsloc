@@ -8,8 +8,6 @@ if(strlen($_SESSION['alogin'])==0)
 header('location:index.php');
 }
 ?>
- 
-
 <!doctype html>
 <html lang="en" class="no-js">
 

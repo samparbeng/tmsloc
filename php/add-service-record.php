@@ -9,10 +9,6 @@ header('location:index.php');
 }
 
 ?>
- 
- 
-
-
 <!doctype html>
 <html lang="en" class="no-js">
 
